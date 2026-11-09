@@ -1,0 +1,19 @@
+perbedaan antara if, if-else, else if, dan switch
+
+if: Digunakan untuk menjalankan kode jika suatu kondisi bernilai true. Jika kondisi bernilai false, kode di dalamnya tidak dijalankan.
+
+if-else: Digunakan untuk memilih antara dua kemungkinan berdasarkan kondisi. Jika kondisi if salah, program menjalankan bagian else.
+
+else if: Digunakan untuk memeriksa beberapa kondisi secara berurutan. Program menjalankan blok pertama yang kondisinya bernilai true.
+
+switch: Digunakan untuk memilih kode yang dijalankan berdasarkan nilai atau kondisi tertentu. Cocok ketika terdapat banyak pilihan.
+
+Perbedaan switch pada go dan java:
+
+switch pada go:
+- Tidak memerlukan break pada setiap case karena secara default tidak terjadi fall-through, jadi lanjut ke case berikutnya
+- Mendukung case dengan beberapa nilai yang dipisahkan koma, misalnya case 1, 2, 3.
+
+switch pada java:
+- Memerlukan break pada setiap case untuk mencegah fall-through, kecuali jika memang diinginkan.
+- Tidak mendukung case dengan beberapa nilai yang dipisahkan koma, setiap case hanya bisa memiliki satu nilai.
